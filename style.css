@@ -1,5 +1,6 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
+
 .name {
     font-size: xx-large;
 }
@@ -50,20 +51,23 @@
     padding: 9px 9px;
 }
 
-.poster {
-    align-items: center;
-    background-image: url("poster.jpg");
-    object-fit: cover;
-    width: 100%;
-    margin-right: 100px;
-    justify-items: center;
-    align-items: flex-start;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #cdebbc;
-    height: 400px;
-    padding-top: 60px;
+@media(min-width:576px) {
+    .poster {
+        align-items: center;
+        background-image: url("poster.jpg");
+        object-fit: cover;
+        width: 100%;
+        margin-right: 100px;
+        justify-items: center;
+        align-items: flex-start;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #cdebbc;
+        height: 400px;
+        padding-top: 60px;
+
+    }
 }
 
 .poster h1 {
@@ -107,7 +111,9 @@
 }
 
 .menu {
-    font-size: xx-large;
+    font-size: 60px;
+    color: rgb(133, 241, 196);
+    padding-top: 10px;
 }
 
 #features .fe-box {
@@ -263,7 +269,7 @@ h6 {
 
 .text1 {
     align-items: center;
-    padding-top: 80px;
+    padding-top: 50px;
     padding-left: 900px;
 }
 
@@ -284,31 +290,36 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: blue;
+    background-color: rgb(18, 90, 198);
     color: white;
 }
 
-.col {
+footer .col {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 20px;
 }
 
+footer .logo {
+    margin-bottom: 30px;
+}
+
 footer h4 {
-    font-size: 14px;
+    font-size: 24px;
     padding-bottom: 20px;
 }
 
 footer p {
-    font-size: 13px;
+    font-size: 15px;
     margin: 0 0 8px 0;
 }
 
 footer a {
-    font-size: 13px;
+    font-size: 20px;
     text-decoration: none;
-    color: #222 margin-bottom:10px;
+    color: white;
+    margin-bottom: 10px;
 }
 
 footer .follow {
@@ -316,7 +327,7 @@ footer .follow {
 }
 
 footer .follow i {
-    color: #465b52;
+    color: #46555b;
     padding-right: 4px;
     cursor: pointer;
 }
@@ -331,16 +342,19 @@ footer .install img {
 
 footer .follow i:hover,
 footer a:hover {
-    color: cyan;
+    color: aqua;
 }
 
 .icon {
-    padding-left: 4px;
-    padding-right: 4px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: white;
     width: 180px;
-    border-radius: 12px;
+    border-radius: 15px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
