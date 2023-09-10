@@ -53,10 +53,17 @@
 .poster {
     align-items: center;
     background-image: url("poster.jpg");
-    background-repeat: no-repeat;
-    height: 400px;
+    object-fit: cover;
+    width: 100%;
     margin-right: 100px;
-
+    justify-items: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #cdebbc;
+    height: 400px;
+    padding-top: 60px;
 }
 
 .poster h1 {
