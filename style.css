@@ -204,7 +204,7 @@ h6 {
 }
 
 .card {
-    width: 300px;
+    width: 290px;
     margin: 10px auto;
     border: 2px solid rgba(75, 74, 74, 0.969);
     border-radius: 50px;
@@ -212,6 +212,7 @@ h6 {
     padding-bottom: 10px;
     line-height: 15px;
     position: relative;
+    padding-top:15px;
 
 
 }
